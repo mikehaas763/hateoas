@@ -7,8 +7,8 @@
     <ProjectGuid>{48B447CA-FA26-4BE7-88FA-5217C9D2E784}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>hateoas</RootNamespace>
-    <AssemblyName>hateoas</AssemblyName>
+    <RootNamespace>Hateoas</RootNamespace>
+    <AssemblyName>Hateoas</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -50,7 +50,11 @@
     <Compile Include="Attributes\RelationAttribute.cs" />
     <Compile Include="Formatting\JsonHalMediaTypeFormatter.cs" />
     <Compile Include="HalBuilder.cs" />
+    <Compile Include="Hateoas.cs" />
+    <Compile Include="HateoasBuilder.cs" />
+    <Compile Include="Link.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HalStructure.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
