@@ -48,13 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\RelationAttribute.cs" />
+    <Compile Include="HateoasSerializerBuilder.cs" />
+    <Compile Include="HateoasSerializer.cs" />
     <Compile Include="Formatting\JsonHalMediaTypeFormatter.cs" />
-    <Compile Include="HalBuilder.cs" />
-    <Compile Include="Hateoas.cs" />
-    <Compile Include="HateoasBuilder.cs" />
-    <Compile Include="Link.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HalStructure.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Hateoas
 {
-    class HalStructure
+    public class HateoasSerializerBuilder
     {
-        public IList<Link> Links { get; set; }
-
+        public HateoasSerializer Build()
+        {
+            return new HateoasSerializer();
+        }
     }
 }
